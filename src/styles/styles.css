@@ -1,0 +1,299 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .thank-you {
+    text-align: center;
+    background: #d4edda;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+  }
+
+  /* Center the thank you box */
+.thank-you-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Stylish box */
+.thank-you-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+  animation: slideUp 1s ease-out;
+}
+
+/* Heading with animation */
+.thank-you-box h2 {
+  font-size: 2rem;
+  color: #007bff;
+  font-weight: 700;
+  margin-bottom: 15px;
+  animation: popIn 0.8s ease-in-out;
+}
+
+/* Text paragraph */
+.thank-you-box p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* User details styling */
+.user-details {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  margin: 15px 0;
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.user-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Back to home button */
+.home-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #007bff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+/* Global Styles for Thank You Page */
+
+/* Center the Thank You page */
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Stylish thank-you card */
+  .thank-you-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    animation: slideUp 1s ease-out;
+  }
+  
+  /* Heading */
+  .thank-you-heading {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    animation: popIn 0.8s ease-in-out;
+  }
+  
+  /* Text paragraph */
+  .thank-you-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  /* User details section */
+  .thank-you-details {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 15px 0;
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thank-you-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Back to home button */
+  .home-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #007bff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .home-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes popIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .thank-you-card {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    .thank-you-heading {
+      font-size: 1.5rem;
+    }
+  
+    .thank-you-text {
+      font-size: 1rem;
+    }
+  
+    .thank-you-details p {
+      font-size: 0.9rem;
+    }
+  
+    .home-button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  
